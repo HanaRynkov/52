@@ -97,11 +97,6 @@ function stastHandler() {
         
     `)
 
-    //ассортимент (количество позиций товаров)
-    // totalCoast of all products
-    //quantity of all products
-    //max price of prod
-    //min price of prod
-    //avg price of prod 
+   const statsContainer = document.getElementById('statsContainer');
 
-}
+   
