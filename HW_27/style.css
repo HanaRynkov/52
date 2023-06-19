@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Стили для блока Chess */
+  #root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Chess {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+  .Chess h1 {
+    color: #333;
+  }
+  
+  .Chess h2 {
+    color: #777;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .Chess {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .Chess {
+      width: 100%;
+    }
+  
+    #root {
+      display: block;
+    }
+  
+    .Chess + .Chess {
+      margin-top: 20px;
+    }
+  }
